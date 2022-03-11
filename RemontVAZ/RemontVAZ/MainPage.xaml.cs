@@ -20,9 +20,9 @@ namespace RemontVAZ
 
         }
 
-        private void btnRegister_Clicked(object sender, EventArgs e)
+        private async void btnRegister_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new RegisterPage());
         }
     }
 }
