@@ -14,5 +14,15 @@ namespace RemontVAZ
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegister_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
