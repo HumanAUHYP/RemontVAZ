@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RemontVAZ.TOPage"
+             x:Class="RemontVAZ.EngineRepairPage"
              BackgroundImage="background.png">
     <ScrollView>
         <StackLayout>
@@ -10,7 +10,7 @@
             <Label Text="> Замена свечей" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
             <Label Text="> Замена масла в двигателе" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
             <Label Text="> Замена охлаждающей жидкости" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
-            
+
             <Button x:Name="btnCheckIn" Text="Записаться на ремонт" Margin="10, 270, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="20" FontSize="24" Clicked="btnCheckIn_Clicked"/>
         </StackLayout>
     </ScrollView>

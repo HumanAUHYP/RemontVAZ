@@ -8,7 +8,7 @@
         <StackLayout>
             <Label Text="Наши услуги:" TextColor="white" FontSize="40" Margin="0, 0, 0, 30" HorizontalTextAlignment="Center"/>
             <Button x:Name="btnTO" Text="ТО" FontSize="24" Clicked="btnTO_Clicked"/>
-            <Button x:Name="btnDiagnoz" Text="Диагностика" FontSize="24" Clicked="btnDiagnoz_Clicked"/>
+            <Button x:Name="btnDiagnoz" Text="Диагностика двигателя" FontSize="24" Clicked="btnDiagnoz_Clicked"/>
             <Button x:Name="btnEngineRepair" Text="Ремонт двигателя" FontSize="24" Clicked="btnEngineRepair_Clicked"/>
             <Button x:Name="btnTruckRepair" Text="Ремонт подвески" FontSize="24" Clicked="btnTruckRepair_Clicked"/>
             <Button x:Name="btnMufferRepair" Text="Ремонт глушителя" FontSize="24" Clicked="btnMufferRepair_Clicked"/>

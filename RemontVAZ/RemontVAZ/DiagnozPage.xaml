@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RemontVAZ.DiagnozPage"
+             BackgroundImage="background.png">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Компьютерная диагностика двигателя" TextColor="white" FontSize="40" Margin="0, 0, 0, 30" HorizontalTextAlignment="Center"/>
+            
+            <Label Text="Отечественные авто - от 600 Р" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+            <Label Text="Иномарка - от 800 Р" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+
+            <Button x:Name="btnCheckIn" Text="Записаться на ремонт" Margin="10, 270, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="20" FontSize="24" Clicked="btnCheckIn_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
