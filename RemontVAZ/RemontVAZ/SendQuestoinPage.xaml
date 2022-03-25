@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RemontVAZ.SendQuestoinPage"
+             BackgroundImage="background.png">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Заполните форму, и наш мастер перезвонит Вам" TextColor="white" FontSize="40" Margin="0, 0, 0, 30" HorizontalTextAlignment="Center"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Entry Text="Ваше имя" TextColor="White" WidthRequest="200"/>
+                <Entry Text="Ваш телефон" TextColor="White" WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry Text="Марка автомобиля" TextColor="White" WidthRequest="200"/>
+                <Entry Text="Год выпуска" TextColor="White" WidthRequest="200"/>
+            </StackLayout>
+            <Entry Text="Причина обращения" TextColor="White"/>
+
+            <Button x:Name="btnReCallMe" Text="Перезвоните мне" Margin="10, 200, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="20" FontSize="24"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

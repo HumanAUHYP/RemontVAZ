@@ -22,32 +22,32 @@ namespace RemontVAZ
 
         private async void btnDiagnoz_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnEngineRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnTruckRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnMufferRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnTransmissionRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnAskAQuestion_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new SendQuestoinPage());
         }
     }
 }
