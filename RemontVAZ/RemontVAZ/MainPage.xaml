@@ -11,7 +11,7 @@
             <Button x:Name="btnDiagnoz" Text="Диагностика двигателя" FontSize="24" Clicked="btnDiagnoz_Clicked"/>
             <Button x:Name="btnEngineRepair" Text="Ремонт двигателя" FontSize="24" Clicked="btnEngineRepair_Clicked"/>
             <Button x:Name="btnTruckRepair" Text="Ремонт подвески" FontSize="24" Clicked="btnTruckRepair_Clicked"/>
-            <Button x:Name="btnMufferRepair" Text="Ремонт глушителя" FontSize="24" Clicked="btnMufferRepair_Clicked"/>
+            <Button x:Name="btnMufferRepair" Text="Ремонт глушителей" FontSize="24" Clicked="btnMufferRepair_Clicked"/>
             <Button x:Name="btnTransmissionRepair" Text="Ремонт трансмиссии" FontSize="24" Clicked="btnTransmissionRepair_Clicked"/>
             
             <Button x:Name="btnAskAQuestion" Text="Задать вопрос" Margin="10, 100, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="40" FontSize="24" Clicked="btnAskAQuestion_Clicked"/>

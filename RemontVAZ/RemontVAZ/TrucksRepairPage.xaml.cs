@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace RemontVAZ
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class EngineRepairPage : ContentPage
+    public partial class TrucksRepairPage : ContentPage
     {
-        public EngineRepairPage()
+        public TrucksRepairPage()
         {
             InitializeComponent();
         }

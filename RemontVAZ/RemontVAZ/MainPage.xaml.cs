@@ -27,7 +27,7 @@ namespace RemontVAZ
 
         private async void btnEngineRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TOPage());
+            await Navigation.PushAsync(new EngineRepairPage());
         }
 
         private async void btnTruckRepair_Clicked(object sender, EventArgs e)

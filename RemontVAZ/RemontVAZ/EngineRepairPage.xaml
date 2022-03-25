@@ -5,11 +5,11 @@
              BackgroundImage="background.png">
     <ScrollView>
         <StackLayout>
-            <Label Text="ТО (Замена масел)" TextColor="white" FontSize="40" Margin="0, 0, 0, 30" HorizontalTextAlignment="Center"/>
-            <Label Text="> Замена фильтров" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
-            <Label Text="> Замена свечей" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
-            <Label Text="> Замена масла в двигателе" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
-            <Label Text="> Замена охлаждающей жидкости" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+            <Label Text="Ремонт двигателя" TextColor="white" FontSize="40" Margin="0, 0, 0, 30" HorizontalTextAlignment="Center"/>
+            <Label Text="> Ремонт дизельных двигателей" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+            <Label Text="> Замена ремня ГРМ" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+            <Label Text="> Замена опоры (подушки) двигателя" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
+            <Label Text="> Капитальный ремонт двигателя" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
 
             <Button x:Name="btnCheckIn" Text="Записаться на ремонт" Margin="10, 270, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="20" FontSize="24" Clicked="btnCheckIn_Clicked"/>
         </StackLayout>
