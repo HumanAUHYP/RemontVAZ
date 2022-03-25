@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace RemontVAZ
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TOPage : ContentPage
+    public partial class CheckInPage : ContentPage
     {
-        public TOPage()
+        public CheckInPage()
         {
             InitializeComponent();
-        }
-
-        private async void btnCheckIn_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CheckInPage());
         }
     }
 }
