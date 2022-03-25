@@ -42,7 +42,7 @@ namespace RemontVAZ
 
         private async void btnTransmissionRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TOPage());
+            await Navigation.PushAsync(new TransmissionRepairPage());
         }
 
         private async void btnAskAQuestion_Clicked(object sender, EventArgs e)
