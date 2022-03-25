@@ -9,7 +9,6 @@
             <Label Text="> Замена сайлентблоков рычага" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
             <Label Text="> Замена задних и передних амортизаторов" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
             <Label Text="> Замена задних и передних стоек стабилизатора" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
-            <Label Text="> Капитальный ремонт подвески" TextColor="white" FontSize="24" Margin="30, 0, 0, 0"/>
 
             <Button x:Name="btnCheckIn" Text="Записаться на ремонт" Margin="10, 270, 10, 0" TextColor="White" BackgroundColor="Green" CornerRadius="20" FontSize="24" Clicked="btnCheckIn_Clicked"/>
         </StackLayout>

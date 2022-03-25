@@ -32,12 +32,12 @@ namespace RemontVAZ
 
         private async void btnTruckRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TOPage());
+            await Navigation.PushAsync(new TrucksRepairPage());
         }
 
         private async void btnMufferRepair_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TOPage());
+            await Navigation.PushAsync(new MufferRepairPage());
         }
 
         private async void btnTransmissionRepair_Clicked(object sender, EventArgs e)
