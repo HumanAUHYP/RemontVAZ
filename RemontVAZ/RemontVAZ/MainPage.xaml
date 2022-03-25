@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RemontVAZ.MainPage">
+             x:Class="RemontVAZ.MainPage"
+             BackgroundImage="background.png">
 
     <ScrollView>
         <StackLayout>
-            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-                <Label Text="Welcome to Doorka!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-            </Frame>
             
-            <Label Text="Login:" FontSize="24"/>
-            <Entry x:Name="Login" FontSize="24"/>
-            <Label Text="Password:" FontSize="24"/>
-            <Entry x:Name="Password" FontSize="24"/>
-            <StackLayout Orientation="Horizontal">
-                <Button x:Name="btnLogin" Text="Вход" FontSize="24" Clicked="btnLogin_Clicked"/>
-                <Button x:Name="btnRegister" Text="Регестрация" FontSize="24" Clicked="btnRegister_Clicked"/>
-            </StackLayout>
+            
+            <Label Text="Наши услуги:" TextColor="white" FontSize="40" HorizontalTextAlignment="Center"/>
+            <Button x:Name="btnTO" Text="ТО" FontSize="24" Clicked="btnTO_Clicked"/>
+            <Button x:Name="btnDiagnoz" Text="Диагностика" FontSize="24" Clicked="btnDiagnoz_Clicked"/>
+            <Button x:Name="btnEngineRepair" Text="Ремонт двигателя" FontSize="24" Clicked="btnEngineRepair_Clicked"/>
+            <Button x:Name="btnTruckRepair" Text="Ремонт подвески" FontSize="24" Clicked="btnTruckRepair_Clicked"/>
+            <Button x:Name="btnMufferRepair" Text="Ремонт глушителя" FontSize="24" Clicked="btnMufferRepair_Clicked"/>
+            <Button x:Name="btnTransmissionRepair" Text="Ремонт трансмиссии" FontSize="24" Clicked="btnTransmissionRepair_Clicked"/>
+            
+            <Button x:Name="btnAskAQuestion" Text="Задать вопрос" Margin="0, 130, 0, 0" TextColor="White" BackgroundColor="Green" CornerRadius="40" FontSize="24" Clicked="btnAskAQuestion_Clicked"/>
         </StackLayout>
         
     </ScrollView>

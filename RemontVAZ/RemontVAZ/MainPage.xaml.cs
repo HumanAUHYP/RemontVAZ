@@ -15,12 +15,37 @@ namespace RemontVAZ
             InitializeComponent();
         }
 
-        private void btnLogin_Clicked(object sender, EventArgs e)
+        private async void btnTO_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new RegisterPage());
         }
 
-        private async void btnRegister_Clicked(object sender, EventArgs e)
+        private async void btnDiagnoz_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
+
+        private async void btnEngineRepair_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
+
+        private async void btnTruckRepair_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
+
+        private async void btnMufferRepair_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
+
+        private async void btnTransmissionRepair_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
+
+        private async void btnAskAQuestion_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new RegisterPage());
         }
