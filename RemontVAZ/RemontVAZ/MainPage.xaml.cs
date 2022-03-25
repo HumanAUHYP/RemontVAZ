@@ -17,7 +17,7 @@ namespace RemontVAZ
 
         private async void btnTO_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushAsync(new TOPage());
         }
 
         private async void btnDiagnoz_Clicked(object sender, EventArgs e)
